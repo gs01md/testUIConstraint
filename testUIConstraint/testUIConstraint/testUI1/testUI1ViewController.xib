@@ -18,8 +18,8 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="宽度是父视图的1/2;高度是宽度的1/3" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbf-mj-VUQ">
-                    <rect key="frame" x="53" y="-8" width="300" height="100"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="宽度是父视图的1/2;高度是宽度的1/3" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbf-mj-VUQ">
+                    <rect key="frame" x="20" y="50" width="300" height="100"/>
                     <color key="backgroundColor" red="0.47050107758620691" green="0.66896551724137931" blue="0.45937499999999998" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" secondItem="zbf-mj-VUQ" secondAttribute="width" multiplier="1:3" priority="750" id="UtC-cW-OJI"/>
@@ -32,7 +32,10 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="zbf-mj-VUQ" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="1:2" id="CbT-WG-WHD"/>
+                <constraint firstItem="zbf-mj-VUQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="WX6-Rb-6LX"/>
+                <constraint firstItem="zbf-mj-VUQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="n9V-eQ-dT9"/>
             </constraints>
+            <point key="canvasLocation" x="304" y="413"/>
         </view>
     </objects>
 </document>
