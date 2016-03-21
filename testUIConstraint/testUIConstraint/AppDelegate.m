@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "testUI1ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    testUI1ViewController *main = [[testUI1ViewController alloc] init];
+    
+    self.window.rootViewController = main;
+    
     return YES;
 }
 
