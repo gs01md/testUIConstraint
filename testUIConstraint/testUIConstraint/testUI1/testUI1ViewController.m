@@ -10,6 +10,8 @@
 
 @interface testUI1ViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *m_lable;
+
 @end
 
 @implementation testUI1ViewController
