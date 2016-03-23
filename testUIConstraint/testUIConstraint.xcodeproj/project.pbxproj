@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F45819D71CA27A3A0078A6BB /* UIView1.m in Sources */ = {isa = PBXBuildFile; fileRef = F45819D61CA27A3A0078A6BB /* UIView1.m */; };
+		F45819D91CA27A700078A6BB /* UIView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = F45819D81CA27A700078A6BB /* UIView1.xib */; };
 		F4E562D31C9FE730001AD19F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E562D21C9FE730001AD19F /* main.m */; };
 		F4E562D61C9FE730001AD19F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E562D51C9FE730001AD19F /* AppDelegate.m */; };
 		F4E562D91C9FE730001AD19F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E562D81C9FE730001AD19F /* ViewController.m */; };
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F45819D51CA27A3A0078A6BB /* UIView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView1.h; sourceTree = "<group>"; };
+		F45819D61CA27A3A0078A6BB /* UIView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView1.m; sourceTree = "<group>"; };
+		F45819D81CA27A700078A6BB /* UIView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIView1.xib; sourceTree = "<group>"; };
 		F4E562CE1C9FE730001AD19F /* testUIConstraint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testUIConstraint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E562D21C9FE730001AD19F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4E562D41C9FE730001AD19F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -152,6 +157,9 @@
 				F4E563051C9FE890001AD19F /* testUI1ViewController.h */,
 				F4E563061C9FE890001AD19F /* testUI1ViewController.m */,
 				F4E563071C9FE890001AD19F /* testUI1ViewController.xib */,
+				F45819D51CA27A3A0078A6BB /* UIView1.h */,
+				F45819D61CA27A3A0078A6BB /* UIView1.m */,
+				F45819D81CA27A700078A6BB /* UIView1.xib */,
 			);
 			path = testUI1;
 			sourceTree = "<group>";
@@ -261,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4E563091C9FE890001AD19F /* testUI1ViewController.xib in Resources */,
+				F45819D91CA27A700078A6BB /* UIView1.xib in Resources */,
 				F4E562E11C9FE730001AD19F /* LaunchScreen.storyboard in Resources */,
 				F4E562DE1C9FE730001AD19F /* Assets.xcassets in Resources */,
 				F4E562DC1C9FE730001AD19F /* Main.storyboard in Resources */,
@@ -292,6 +301,7 @@
 				F4E562D91C9FE730001AD19F /* ViewController.m in Sources */,
 				F4E562D61C9FE730001AD19F /* AppDelegate.m in Sources */,
 				F4E562D31C9FE730001AD19F /* main.m in Sources */,
+				F45819D71CA27A3A0078A6BB /* UIView1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
